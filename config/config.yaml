@@ -1,0 +1,11 @@
+kubernetes:
+  config_file: "C:\\Users\\bhys\\.kube\\config"
+  namespace: "cyber-exercise-platform"
+
+docker:
+  base_image: "ubuntu:latest"
+
+monitoring:
+  prometheus_url: "http://prometheus:9090"
+  grafana_url: "http://grafana:3000"
+                        

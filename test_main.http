@@ -1,0 +1,14 @@
+# Test your FastAPI endpoints
+
+POST http://localhost:8000/api/environment
+Content-Type: application/json
+
+{
+    "namespace": "test-env",
+    "image": "nginx",
+    "name": "nginx-container"
+}
+
+###
+
+DELETE http://localhost:8000/api/environment/test-env
